@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <!-- ===== Boxicons CSS ===== -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>EspritBook</title>
+</head>
+<body>
+
+
+    <nav>
+            <div class="nav-bar">
+            <i class="bx bx-menu sidebarOpen"></i>
+            
+            <span class="logo navLogo">
+                <a href="index.html">
+                <img src="image/logoEspritBook.png" alt="logo">
+                </a>
+            </span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                <span class="logo"><a href="#">EspritBook </a></span>
+                <i class="bx bx-x siderbarClose"></i>
+                </div>
+
+                <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="page.html">Library </a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="page.html#Contact">Contact </a></li>
+                <li><a href="#">Dashboard </a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                <i class="bx bx-moon moon"></i>
+                <i class="bx bx-sun sun"></i>
+                </div>
+
+                <div class="searchBox">
+                <div class="searchToggle">
+                    <i class="bx bx-x cancel"></i>
+                    <i class="bx bx-search search"></i>
+                </div>
+
+                <div class="search-field">
+                    <input type="text" placeholder="Search..." />
+                    <i class="bx bx-search"></i>
+                </div>
+                </div>
+            </div>
+            </div>
+    </nav>
+
+    <main>
+        <div class="banner">
+            <h5>@Real_rayen</h5>
+            <div>
+                <h1 class="left">EspritBook University</h1>
+                <h1 class="right">Library</h1>
+            </div>
+            
+            <button onclick="gotopage()">See more &#8599</button>
+
+            <canvas id="dotsCanvas"></canvas>
+        </div>
+    </main> 
+    
+
+
+  
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
