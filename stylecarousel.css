@@ -343,6 +343,7 @@ header a{
 }
 
 #Contact{
+  border-top: white solid 1px;
   background-color: var(--bg-dark);
   color: var(--text-light);
   min-height: 100vh;
@@ -523,9 +524,10 @@ textarea::placeholder {
 :root{
     --white: #fff;
     --light: #eeeded;
-    --orange: #ffcfb3;
+    --orange: #141414;;
 }
 #buy-section{
+    
     background-color: var(--orange);
     font-family: system-ui;
     overflow: hidden;
@@ -536,6 +538,7 @@ textarea::placeholder {
     
 }
 #buy-section .container{
+    
     width:1200px;
     border:1px solid var(--white);
     max-width: 100%;
