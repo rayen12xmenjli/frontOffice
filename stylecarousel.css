@@ -641,14 +641,19 @@ textarea::placeholder {
     padding:10px;
     column-gap: 20px;
     border-radius: 20px;
+    padding-top: 50px;
+    
 }
 #buy-section .item .img img{
-    height:70px;
+    height:60px;
+    
+
 }
 #buy-section .item .img{
     background-color: var(--light);
     border-radius: 20px;
     display: flex;
+    width: 40px;
     justify-content: center;
     align-items: center;
 }
