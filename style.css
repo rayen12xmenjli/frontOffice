@@ -102,6 +102,7 @@ nav .nav-bar .sidebarOpen {
   display: flex;
   align-items: center;
   margin-right: 10px; /* push nav links to the right */
+  padding-top: 13px;
   
 }
 
